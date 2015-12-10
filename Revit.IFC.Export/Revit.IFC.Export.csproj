@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Exporter\AreaSchemeExporter.cs" />
     <Compile Include="Exporter\AssemblyInstanceExporter.cs" />
     <Compile Include="Exporter\AssemblyInstanceInfo.cs" />

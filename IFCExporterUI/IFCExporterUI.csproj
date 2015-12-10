@@ -60,6 +60,8 @@
     <Compile Include="IFCAssignmentUI.xaml.cs">
       <DependentUpon>IFCAssignmentUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UPAR\IFCExternalApplication.cs" />
+    <Compile Include="UPAR\IFCExternalCommand.cs" />
     <Compile Include="IFCCommandOverrideApplication.cs" />
     <Compile Include="IFCExport.xaml.cs">
       <DependentUpon>IFCExport.xaml</DependentUpon>
@@ -117,6 +119,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="UPAR\converter16.bmp" />
+    <EmbeddedResource Include="UPAR\converter32.bmp" />
     <Content Include="codeowner.txt" />
     <Content Include="icons\create.ico" />
     <Content Include="icons\delete.ico" />
